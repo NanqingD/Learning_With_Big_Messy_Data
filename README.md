@@ -1,6 +1,6 @@
 # Learning_With_Big_Messy_Data
 
-This is our project for ORIE 4741.  \\
+This is our project for ORIE 4741.  
 The name of our project is: Movie quality prediction.  \\
 The names and Cornell IDs of the project members are: Ziyi Chen (zc286), Yuan Cheng (yc956), Nanqing Dong (nd367)\\
 A one or two paragraph description of our project is: \\
