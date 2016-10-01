@@ -1,0 +1,33 @@
+%It should identify a question, and a data set that you'll use to answer the question. Justify why the problem is important, and why you think the data set will allow you to (begin to) answer the question.
+%
+%Stylistically, the proposal should be written as though it were a memo to your manager (at whatever kind of enterprise might care about this question: either government, nonprofit, or industry). You should justify why it's worthwhile to this enterprise for you to work on the project for a few months, and why you think you're likely to succeed.
+
+\documentclass{article} 
+  \usepackage{amsmath} 
+  \usepackage{amssymb} 
+  \usepackage{indentfirst} 
+  \usepackage{mathrsfs}
+  \usepackage{verbatim}
+  \usepackage{hyperref}
+  \usepackage{bbm}
+  \usepackage{url}
+   \PassOptionsToPackage{hyphens}{url}
+   
+  \author{Nanqing Dong (nd367), Ziyi Chen (zc286)} 
+  \title{ORIE 4741 proposal: Curative effect prediction} 
+  
+\begin{document}
+\maketitle
+  Our team aims at the curative effect prediction, and the selection of suitable hospitals (will be de-identified in our project), treatments, etc., for various diseases, which would be helpful for patients to recover with higher probability.
+  We will adopt the dataset of 2544731 patients from\\
+{\small \url{https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-\do SPARCS-De-Identified/u4ud-w55t}}\\
+for the following reasons:\\
+\indent
+(1) In this dataset, the APR Risk of mortality is a good indicator of curative effect, so we will consider it as the target variable. In addition, for each patient, there are many relevant predictors such as the type of disease, the hospital, the treatment adopted, the length of stay in hospital, the severity level, etc.\\
+\indent
+(2) The dataset is big and messy for us to practice what we learnt from this course. There are missing values, categorical values, numerical values, etc.\\
+\\
+\indent
+To purely focus on the selection of a factor, we may attempt to control the other highly correlated features. For example, for each disease, while selecting the suitable hospitals, we may group the patients via the severity level of disease (categorical) and compare the hospitals group by group, since the hospitals with patients of higher severity level also tend to have higher risk of mortality. By controlling the severity level, and maybe the other highly correlated predictors, we can focus on the quality of hospitals only for a certain disease. 
+\end{document} 
+
