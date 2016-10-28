@@ -45,6 +45,7 @@ data = data.dropna()
 data['facility'] = data['facility'].astype(int)
 data = data[data['gender'] != 'U']
 data = data[data['race'] != 'Unknown']
+data = data[data['ethnicity'] != 'Unknown']
 data['diagnosis'] = data['diagnosis'].astype(str)
 data['procedure'] = data['procedure'].astype(str)
 data['DRG'] = data['DRG'].astype(str)
