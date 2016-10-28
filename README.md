@@ -4,4 +4,4 @@
 
 ## Insurance Claim Prediction
 
-## Recommneder System for Hospital in New York State
+## Recommender System for Hospital in New York State
