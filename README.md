@@ -1,7 +1,2 @@
-# New York State Patients Mortality Risk
+# New York State Inpatients Mortality Prediction
 
-## Mortality Risk Prediction
-
-## Insurance Claim Prediction
-
-## Recommender System for Hospital in each county New York State
