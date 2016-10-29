@@ -10,7 +10,6 @@ names = {
     'Gender':'gender',
     'Race':'race',
     'Ethnicity':'ethnicity',
-    'Length of Stay':'stay',
     'Admit Day of Week':'admit_day',
     'Type of Admission':'admit_type',
     'Patient Disposition':'disposition',
