@@ -1,0 +1,13 @@
+Highest F-1 measure for SVM with RBF is 0.520467836257 with C = 0.05
+Highest F-1 measure for SVM with RBF is 0.537482319661 with C = 100
+Highest F-1 measure for SVM with RBF is 0.539772727273 with C = 140
+Highest F-1 measure for SVM with RBF is 0.539772727273 with C = 140
+Highest F-1 measure for SVM with RBF is 0.541310541311 with C = 137
+Highest F-1 measure for SVM with Linear Kernal, squared_hinge loss and l2 penalty is 0.524725274725 with C = 1
+Highest F-1 measure for SVM with Linear Kernal, squared_hinge loss and l2 penalty is 0.519480519481 with C = 10
+Highest F-1 measure for SVM with Linear Kernal, squared_hinge loss and l1 penalty is 0.525447042641 with C = 50
+Highest F-1 measure for SVM with Linear is 0.488431876607 with C = 10
+Highest F-1 measure for SVM with Linear Kernal, squared_hinge loss and l2 penalty is 0.524725274725 with C = 1
+Highest F-1 measure for SVM with Linear Kernal, hinge loss and l2 penalty is 0.488431876607 with C = 3
+Highest F-1 measure for SVM with Linear Kernal, hinge loss and l2 penalty is 0.512968299712 with C = 0.001
+Highest F-1 measure for SVM with Linear Kernal, hinge loss and l2 penalty is 0.504225352113 with C = 0.0005

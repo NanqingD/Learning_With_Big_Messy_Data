@@ -1,0 +1,33 @@
+When you create the table, please speicify(tell the reader): Here are some selected models for comparison purpose
+I do more than these. Thanks
+
+
+Valiation
+Logistics Regression
+l2, C = 0.061, class_weight = 'balanced', F-1 = 0.525
+l1, C = 0.175, lass_weight = 'balanced', F-1 = 0.526170798898 
+
+Support Vector Machines
+Guassian Kernal, hinge loss: C = 137, F-1 = 0.541310541311
+Linear Kenral, l1, squared hinge, C = 50, F-1 = 0.525447042641
+Linear Kenral, l2, hinge, C = 0.001 , F-1 = 0.512968299712
+Linear Kerral, l2, squared hinge, C = 1, F-1 = 0.524725274725
+
+Random Forest
+number_of_trees = 100, average F-1 on 100 forests = 0.377228139802
+
+Gradient Boosting
+number_of_boosting_stages = 100, F-1 = 
+
+Neural Network
+100 hidden layers, logistic activation, learning_rate = 'adaptive', alpha = 0.001, average F-1 measure is 0.2584181792
+
+Test
+Logistic Regression
+F-1 measure for Logistic Regression with l2 and C = 0.061 is 0.525
+F-1 measure for Logistic Regression with l1 and C = 0.175 is 0.526170798898
+SVM
+F-1 measure for SVM with RBF and C = 137 is 0.541310541311
+F-1 measure for SVM with Linear Kernal, squared_hinge loss, l1 penalty, and C = 50 is 0.525447042641
+F-1 measure for SVM with Linear Kernal, hinge loss, l2 penalty, and C = 0.001 is 0.512968299712
+F-1 measure for SVM with Linear Kernal, squared_hinge loss, l2 penalty, and C = 1 is 0.524725274725

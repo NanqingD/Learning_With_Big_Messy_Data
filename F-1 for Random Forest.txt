@@ -1,0 +1,9 @@
+Highest F-1 measure for Random Forest with 50 trees and max_features = auto is 0.367346938776
+Highest F-1 measure for Random Forest with 50 trees and max_features = auto is 0.367346938776
+Highest F-1 measure for Random Forest with 10 trees and max_features = None is 0.382871536524
+Highest F-1 measure for Random Forest with 10 trees and max_features = None is 0.376963350785
+Highest F-1 measure for Random Forest with 110 trees and max_features = None is 0.381962864721
+Highest F-1 measure for Random Forest with 10000 trees and max_features = None is 0.364611260054
+Average F-1 measure for Random Forest with 10 trees and max_features = None is 0.358111137513
+Average F-1 measure for Random Forest with 10 trees and max_features = None is 0.358111137513
+Average F-1 measure for Random Forest with 100 trees and max_features = None is 0.377228139802
